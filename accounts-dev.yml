@@ -4,7 +4,7 @@ build:
 accounts:
   message: "Welcome dev"
   contact:
-    name: "Adam dev test change in runtime 2"
+    name: "Adam dev spring bus "
     email: "{cipher}2c5239209d60c4a525749173ba361c2c0330c183cdb3c246403b3faa8404d0f10f6f636cdd1906398e8129d3f9449061"
   onCallSupport:
     - 111111111

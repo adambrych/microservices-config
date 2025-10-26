@@ -4,7 +4,7 @@ build:
 loans:
   message: "Welcome dev"
   contact:
-    name: "Adam dev"
+    name: "Adam dev spring bus"
     email: "dev_adam@example.com"
   onCallSupport:
     - 111111111
