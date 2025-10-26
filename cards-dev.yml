@@ -4,7 +4,7 @@ build:
 cards:
   message: "Welcome dev"
   contact:
-    name: "Adam dev spring bus"
+    name: "Adam dev spring bus automatic refresh"
     email: "dev_adam@example.com"
   onCallSupport:
     - 111111111
