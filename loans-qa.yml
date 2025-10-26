@@ -1,0 +1,11 @@
+build:
+  version: 3.0
+
+loans:
+  message: "Welcome qa"
+  contact:
+    name: "Adam qa"
+    email: "qa_adam@example.com"
+  onCallSupport:
+    - 111111111
+    - 222222222

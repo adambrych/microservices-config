@@ -1,0 +1,11 @@
+build:
+  version: 2.0
+
+loans:
+  message: "Welcome Prod"
+  contact:
+    name: "Adam Prod"
+    email: "prod_adam@example.com"
+  onCallSupport:
+    - 111111111
+    - 222222222
