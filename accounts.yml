@@ -2,26 +2,6 @@ spring:
   application:
     name: accounts
 
-  datasource:
-    url: jdbc:h2:mem:testdb       # baza w pamięci (tymczasowa, znika po restarcie)
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:                    # puste hasło (domyślne w H2)
-
-  jpa:
-    hibernate:
-      ddl-auto: update           # automatyczne tworzenie/aktualizacja tabel
-    show-sql: true               # wyświetlanie zapytań SQL w konsoli
-    properties:
-      hibernate:
-        format_sql: true         # formatowanie SQL w logach
-    database-platform: org.hibernate.dialect.H2Dialect
-
-  h2:
-    console:
-      enabled: true              # włączenie konsoli H2
-      path: /h2-console          # adres: http://localhost:8080/h2-console
-
 server:
   port: 8080                     # port aplikacji (opcjonalnie)
   error:
