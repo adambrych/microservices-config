@@ -1,0 +1,13 @@
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # Serwer Eureka sam się nie rejestruje ani nie pobiera rejestru
+    registerWithEureka: false
+    fetchRegistry: false
+  service-url:
+    # 💡 Składanie adresu dynamicznie z hosta i portu:
+    defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
